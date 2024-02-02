@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Contraseñas</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+
+  <div class="container mt-5">
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card animate__animated animate__fadeInUp bigger-card">
+          <div class="card-body">
+            <h2 class="card-title">CREADOR DE SEGURIDAD</h2>
+            <h4 class="card-title">corrobora de poner tus datos correctamente para generar tu contraseña y que te lleguen ya mismo a tu correo!!!</h4>
+            <form id="userDataForm">
+              <div class="form-group">
+                <label for="firstName">Nombre:</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Ej. Juan" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Apellido:</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Ej. Pérez" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" placeholder="Ej. ejemplo@dominio.com" required>
+              </div>
+              <button type="button" id="generateBtn" class="btn btn-primary btn-block animate__animated animate__pulse">Generar Contraseña</button>
+            </form>
+            <div id="passwordDisplay" class="mt-4"></div>
+            <ul id="passwordList" class="list-group mt-4"></ul>
+            <div id="message" class="alert alert-info mt-4" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+<div class="col-md-6">
+  <div class="card animate__animated animate__fadeInUp bigger-card">
+    <div class="card-body">
+      <h2 class="card-title">NUESTRA BREVE HISTORIA </h2>
+      <p>
+        Bienvenido a nuestro generador de contraseñas, un proyecto creado con dedicación y pasión por la seguridad en línea.
+        En un mundo digital cada vez más interconectado, nos hemos propuesto proporcionar herramientas confiables y útiles para
+        proteger sus cuentas y datos importantes.
+      </p>
+      <p>
+        Nuestra misión es ofrecer una solución eficiente y segura para la creación de contraseñas robustas, garantizando así
+        la protección de la información personal de nuestros usuarios. Nos esforzamos por abordar los desafíos actuales en
+        seguridad cibernética y brindar un servicio que permita a las personas tomar el control de su propia seguridad en línea.
+         CONTACTANOS PARA BRINDARTE MAS SERVICIOS. 3519832594 *GRUPO CIBERSEGURISTAS*
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-12 mt-4">
+  <div class="card animate__animated animate__fadeInUp bigger-card">
+    <div class="card-body">
+      <h2 class="card-title">RESEÑAS DE NUESTROS CLIENTES</h2>
+      <h4 class="card-title"> Deja tu reseña, queremos escuchar tu opinion y mejorar dia a dia :)</h4>
+      <form id="reviewForm" class="mt-3">
+        <div class="form-group">
+          <label for="reviewName">Nombre:</label>
+          <input type="text" class="form-control" id="reviewName" placeholder="Ej. María" required>
+        </div>
+        <div class="form-group">
+          <label for="reviewText">Reseña:</label>
+          <textarea class="form-control" id="reviewText" rows="3" placeholder="Escribe tu reseña aquí..." required></textarea>
+        </div>
+        <button type="button" id="addReviewBtn" class="btn btn-primary btn-block animate__animated animate__pulse">Agregar Reseña</button>
+      </form>
+      <ul id="reviewsList" class="list-group mt-4"></ul>
+     
+    </div>
+  </div>
+</div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="ui.js" defer></script>
+</body>
+</html>
