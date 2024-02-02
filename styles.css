@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+  background-image: url('imagenes/imag2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #806d6d;
+  margin: 0;
+  padding: 0;
+  background-color: #050000;
+}
+
+.container {
+  min-height: 650px;
+}
+
+.card {
+  background-color: #aa9e9e;
+  color: #000000;
+  margin-top: 20px;
+  border: 1px solid #000000;
+}
+
+.card-title {
+  color: #1d011d;
+}
+.btn-primary {
+  background-color: #00ff0d;
+  border-color: #00ffbf;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #b30000;
+  border-color: #b30000;
+}
+
+.form-control {
+  background-color: #e0cdcde8;
+  color: #000000;
+  margin-bottom: 10px;
+}
+#reviewsContainer {
+  top: 50px; 
+  right: 20px; 
+  max-height: calc(100vh - 100px); 
+  overflow-y: auto; 
+}
+#reviewsList {
+  color: #ffffff;
+}
+
+.list-group-item {
+  border: none; 
+}
+
+.animate__animated {
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out; 
+}

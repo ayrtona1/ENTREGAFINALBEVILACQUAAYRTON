@@ -1,0 +1,8 @@
+
+[
+        { "id": 1, "name": "Contraseña Simple", "pattern": "abc123" },
+        { "id": 2, "name": "Contraseña Fuerte", "pattern": "P@ssw0rd" }
+    
+      ]
+      
+  
